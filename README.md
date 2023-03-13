@@ -1,5 +1,5 @@
 <h1 align="center">
-  Banco - JAVASCRIPT POO
+  Banco - JAVASCRIPT POO 2
 </h1>
 
 ### Índice
@@ -15,9 +15,9 @@
 </br>
 
 ## :pencil: Descrição do Projeto
-O projeto **[Banco - Javascript POO](https://nayarawatanuki.github.io/javascript-oop__bank/)**, é uma simples proposta de cadastros de contas correntes, contruída em `javascript`. 
+O projeto **[Banco - Javascript POO 2](https://github.dev/nayarawatanuki/javascript-oop__bank2)**, é uma simples proposta de cadastros de contas correntes, contruída em `javascript`. 
 Esse projeto contém o objetivo de aprender a manipular atributos e funções, aplicando boas práticas com `javascript`. 
-</br>Desenvolvido para o curso de **JAVASCRIPT: PROGRAMANDO A ORIENTAÇÃO A OBJETOS** da plataforma [Alura](https://www.alura.com.br/).
+</br>Desenvolvido para o curso de **JAVASCRIPT: INTERFACES E HERANÇA EM ORIENTAÇÃO A OBJETOS** da plataforma [Alura](https://www.alura.com.br/).
 
 </br>
 
@@ -27,45 +27,52 @@ Esse projeto contém o objetivo de aprender a manipular atributos e funções, a
 </br>
 
 ## :hammer: Funcionalidades e Demonstração da Aplicação
-Demonstração básica de funções e atributos construídos com `javascript` para cadastros de contas correntes.
+Demonstração básica de funções e atributos construídos com `javascript` para cadastros de contas e funcionários.
 
 </br>
 
 **Foi aprendido e utilizado:** 
 
-  - Evitar repetição de código
-    - Classes:
-      - Atributos;
-      - Instâcia/Objeto;
-      - Palavra chave this;
-      - Encapsulamento
-      - Proposta de atributos privados (já está em vigor);
-      - Return e early return;
-      - Acessando Atributos privados:
-        - Get e Set;
-        - Atributos "readonly";
-        - Atributos estáticos.
-      - Construtores;
-        - Melhor encapsulamento da classe;
-        - Protegendo atributos sensíveis;
-      - Vantagens de ter um código onde usamos classes e composição ao invés de tipos primitivos;
-      
-   - Adicionando comportamentos
-     - Operador new;
-     - Criar métodos;
-   
-   - Modularizando código
-     - `package.json`, para estar tipando o projeto com scripts do tipo: `modules`;
-        - import/export;
+  - Relembrando conceitos de classe, propriedades e métodos;
+  - Boas práticas na hora de declarar atributos;
+  - Declarando sempre as propriedades como sendo privadas inicialmente;
+  - Problemas de duplicação de código;
+  - Problemas de código extremamente compartilhado;
+  </br>
   
-  - Tipos de valor e tipos de referência;
-  - Alterando dinamicamente um objeto;
-  - Diferenças entre null e undefined.
-
+  - Especializando código;
+  - Herdando propriedades e atributos;
+  - Sobrecarga de métodos;
+  - Compartilhando código de forma segura;
+  - Mantendo nosso código na linguagem do cliente;
+  - Evitando código muito complicado através da herança;
+  - Palavra-chave `Super()`;
+  - Método e propriedades privadas e protegidas;
+  </br>
+  
+  - Como o `JS` sabe quem está sendo instanciado;
+  - Proteção do nosso sistema;
+  - Lançamento de erros para o sistema;
+  - Classes abstratas;
+  - Métodos abstratos;
+  - Erros em tempo de execução;
+  </br>
+  
+  - Revisão de herança,boas práticas de código e encapsulamento; 
+  - Polimorfismo;
+  - Métodos estáticos;
+  - Maneiras de tratar objetos de diferentes tipos de maneira parecida;
+  </br>
+  
+  - operador `in`;
+  - operador `instanceOf`;
+  - Como proteger o sistema;
+  - Interfaces padronizadas;
+  - Ducky Type;
 </br>
 
 ## :open_file_folder: Acesso ao projeto
-Você pode acessar o [código fonte do projeto](https://github.com/nayarawatanuki/javascript-oop__bank) ou [baixá-lo](https://github.com/nayarawatanuki/javascript-oop__bank/archive/refs/heads/main.zip).
+Você pode acessar o pelo [VS do github](https://github.dev/nayarawatanuki/javascript-oop__bank2), ou [código fonte do projeto](https://github.com/nayarawatanuki/javascript-oop__bank2) ou [baixá-lo](https://github.com/nayarawatanuki/javascript-oop__bank2/archive/refs/heads/main.zip).
 
 Caso obte por baixá-lo: 
 Após baixar o projeto, você pode abrir com o VS Code (ou qualquer outra IDE). Para isso, abra o explorer (primeiro icone no menu) clique em:
@@ -76,20 +83,21 @@ Após baixar o projeto, você pode abrir com o VS Code (ou qualquer outra IDE). 
 </br>
 
 ## :rocket: Abrir e rodar o projeto
-Baixe o projeto clicando [aqui](https://github.com/nayarawatanuki/javascript-oop__bank/archive/refs/heads/main.zip).
+[VS do github](https://github.dev/nayarawatanuki/javascript-oop__bank2) ou baixe o projeto clicando [aqui](https://github.com/nayarawatanuki/javascript-oop__bank2/archive/refs/heads/main.zip).
 
-> Após baixar o projeto, abra a pasta do projeto (Caso o projeto seja baixado em zip, é necessário extraí-lo antes de abrir), então clique no:
-> - Aqruivo **``src/assets/js/index.js``**
+> Após abrir o projeto no VS do github ou baixar o projeto, abra a pasta do projeto (Caso o projeto seja baixado em zip, é necessário extraí-lo antes de abrir), então clique no:
+> - Aqruivo **``src/assets/js/app/controllers/account.js``** e **``src/assets/js/app/controllers/employee.js``**
 > - Abra o terminal, de preferencia o powershell digite os seguintes comandos: </br>
-    - `cd src/assets/js`; </br>
-    - `node ./index.js`;
+    - `cd src/assets/js/app/controllers`; </br>
+    - `node ./account.js`; </br>
+    - `node ./employee.js`.
     
 **Obs:** necessário ter o [`node.js`](https://nodejs.org/) instalado no ambiente.
 
 </br>
 
 ## :keyboard: Tecnologias utilizadas
-![JS](https://raw.githubusercontent.com/nayarawatanuki/javascript-oop__bank/main/src/assets/img/readme/js.PNG)</br>
+![JS](https://raw.githubusercontent.com/nayarawatanuki/javascript-oop__bank2/main/src/assets/img/readme/js.PNG)</br>
 
 </br>
 
